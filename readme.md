@@ -1,3 +1,3 @@
-this is me trying https://pythonspot.com/flask-web-app-with-python/ & http://opentechschool.github.io/python-flask/
+# dontreadme
 
-trying out flask for a simple app to get that hacktoberfest tshirt :D
+learning some [flask](http://opentechschool.github.io/python-flask/) for dat [hacktoberfest](https://hacktoberfest.digitalocean.com/) tshirt

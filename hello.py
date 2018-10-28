@@ -1,21 +1,11 @@
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
  
 @app.route("/")
 def index():
-    return 'Index'
-
-@app.route("/testing")
-def testing():
-    return 'Testing Route'
-
-@app.route("/profile")
-def profile():
-    return 'Profile'
- 
-@app.route("/profile/<string:name>")
-def getProfile(name):
-    return name
+    author = "Me"
+    name = "You"
+    return render_template('index.html', author=author, name=name)
 
 if __name__ == "__main__":
     app.run()
